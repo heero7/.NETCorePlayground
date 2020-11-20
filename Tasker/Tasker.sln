@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasker.API", "src\Tasker.API\Tasker.API.csproj", "{45038083-A6F0-4F2C-95F7-B4129BFF059D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasker.Domain", "src\Tasker.Domain\Tasker.Domain.csproj", "{C97160EF-211C-4496-9BB0-6E6615D0F3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasker.Infrastructure", "src\Tasker.Infrastructure\Tasker.Infrastructure.csproj", "{72D117FF-9969-4A0A-9933-A619ED746CA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{56C7079B-B60C-4F4B-8DDD-97019C206C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45038083-A6F0-4F2C-95F7-B4129BFF059D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45038083-A6F0-4F2C-95F7-B4129BFF059D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45038083-A6F0-4F2C-95F7-B4129BFF059D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45038083-A6F0-4F2C-95F7-B4129BFF059D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97160EF-211C-4496-9BB0-6E6615D0F3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97160EF-211C-4496-9BB0-6E6615D0F3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97160EF-211C-4496-9BB0-6E6615D0F3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97160EF-211C-4496-9BB0-6E6615D0F3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D117FF-9969-4A0A-9933-A619ED746CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D117FF-9969-4A0A-9933-A619ED746CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D117FF-9969-4A0A-9933-A619ED746CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D117FF-9969-4A0A-9933-A619ED746CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC513413-D0B9-4895-AA70-0500661AABB9}
+	EndGlobalSection
+EndGlobal
